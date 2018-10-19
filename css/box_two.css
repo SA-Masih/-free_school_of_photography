@@ -1,0 +1,14 @@
+.box_two {
+  display: inline-block;
+  width: 30%;
+  padding: 7px; }
+  .box_two__imgs {
+    width: 100%;
+    display: inline-block;
+    border-radius: 13px;
+    width: 100%;
+    display: inline-block;
+    border-radius: 13px; }
+  .box_two__imgs:hover {
+    -webkit-filter: blur(5px);
+    filter: blur(5px); }

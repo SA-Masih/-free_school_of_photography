@@ -1,0 +1,45 @@
+@import "normalize";
+@import "box";
+@import "box_two";
+@import "box_three";
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    background-position: center;
+    background-image: url("../img/line.png");
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.h1 {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 60px;
+    color: #4fc1e9;
+}
+.input {
+    outline: none;
+    background: none;
+    color: #FFF;
+    padding: 5px;
+    border: none;
+    font-size: 80px;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+.icon {
+    width: 87px;
+    border-radius: 70px;
+    vertical-align: top;
+}
+.paragraph {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #fff;
+}

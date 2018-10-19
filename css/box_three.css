@@ -1,0 +1,20 @@
+.box_three {
+  display: inline-block;
+  width: 30%;
+  padding: 7px;
+  margin-top: 10px;
+  vertical-align: top;
+  border: 3px solid black;
+  border-right: none;
+  border-top: none;
+  border-color: #819684;
+  border-radius: 34px; }
+  .box_three__paragraph {
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: left;
+    color: #4fc1e9; }
+  .box_three__h3 {
+    color: #fff;
+    font-size: 20px;
+    font-family: serif; }
