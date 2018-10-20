@@ -2,10 +2,11 @@
     display: inline-block;
     width: 30%;
     padding: 7px;
+    margin-left: 2%;
     &__imgs {
         width: 100%;
         display: inline-block;
-        border-radius: 13px;
+        border-radius: 4px;
     }
     &__imgs:hover {
         filter: blur(5px);

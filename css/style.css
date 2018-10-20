@@ -374,11 +374,12 @@ th {
 .box {
   display: inline-block;
   width: 30%;
-  padding: 7px; }
+  padding: 7px;
+  margin-left: 2%; }
   .box__imgs {
     width: 100%;
     display: inline-block;
-    border-radius: 13px; }
+    border-radius: 4px; }
   .box__imgs:hover {
     -webkit-filter: blur(5px);
     filter: blur(5px); }
@@ -386,14 +387,15 @@ th {
 .box_two {
   display: inline-block;
   width: 30%;
-  padding: 7px; }
+  padding: 7px;
+  margin-left: 2%; }
   .box_two__imgs {
     width: 100%;
     display: inline-block;
     border-radius: 13px;
     width: 100%;
     display: inline-block;
-    border-radius: 13px; }
+    border-radius: 4px; }
   .box_two__imgs:hover {
     -webkit-filter: blur(5px);
     filter: blur(5px); }
@@ -411,11 +413,12 @@ th {
   border-radius: 34px; }
   .box_three__paragraph {
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: OpenSans,-apple-;
     text-align: left;
-    color: #4fc1e9; }
-  .box_three__h3 {
     color: #fff;
+    line-height: 20px; }
+  .box_three__h3 {
+    color: #000;
     font-size: 20px;
     font-family: serif; }
 
@@ -424,9 +427,13 @@ th {
   box-sizing: border-box; }
 
 body {
-  background-color: #000;
-  background-position: center;
-  background-image: url("../img/line.png"); }
+  background: #6e9be5;
+  background: #4fc1e9;
+  background: -moz-linear-gradient(left, #4fc1e9 0%, #444bc5 100%);
+  background: -webkit-linear-gradient(left, #4fc1e9 0%, #444bc5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#4fc1e9), to(#444bc5));
+  background: -o-linear-gradient(left, #4fc1e9 0%, #444bc5 100%);
+  background: linear-gradient(to right, #4fc1e9 0%, #444bc5 100%); }
 
 .container {
   width: 100%;
@@ -437,26 +444,33 @@ body {
 
 .h1 {
   text-align: center;
-  font-variant: small-caps;
+  font-family: 'Open Sans', sans-serif;
   font-size: 60px;
-  color: #4fc1e9; }
+  color: #000; }
+
+.a_style {
+  text-decoration: none; }
 
 .input {
   outline: none;
   background: none;
-  color: #FFF;
+  color: #fff;
   padding: 5px;
   border: none;
-  font-size: 80px;
+  font-size: 87px;
   margin-left: 15px;
-  margin-top: -15px; }
+  margin-top: -15px;
+  font-family: sans-serif; }
 
 .icon {
   width: 87px;
-  border-radius: 70px;
+  border-radius: 10px;
   vertical-align: top; }
+
+.icon:hover {
+  border-radius: 70px; }
 
 .paragraph {
   font-size: 15px;
-  font-family: sans-serif;
-  color: #fff; }
+  font-variant: small-caps;
+  color: #000; }

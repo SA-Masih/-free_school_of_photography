@@ -11,12 +11,13 @@
     border-radius: 34px;
     &__paragraph {
         font-size: 15px;
-        font-family: sans-serif;
+        font-family:OpenSans,-apple-;
         text-align: left;
-        color: #4fc1e9;
+        color: #fff;
+        line-height: 20px;
     }
     &__h3 {
-        color: #fff;
+        color: #000;
         font-size: 20px;
         font-family: serif;
     }
